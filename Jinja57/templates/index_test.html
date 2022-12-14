@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Hello World in html</h1>
+    <p>
+        Try going to guess/name_holder
+    </p>
+    <a href="{{ url_for('get_blog', num=3) }}"> Go to blog7 </a>
+</body>
+<footer>
+    <p id="year">
+        Current year is {{ current_year }}
+    </p>
+</footer>
+</html>

@@ -1,0 +1,18 @@
+body {
+    margin-left: 0px;
+}
+
+footer {
+    background-color: purple;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+#year {
+    margin-left: 20px;
+}
